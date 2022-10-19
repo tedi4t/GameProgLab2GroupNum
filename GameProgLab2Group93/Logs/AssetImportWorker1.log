@@ -1,0 +1,279 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'uk' Physical Memory: 8044 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/GameDevLabs/GameProgLab2Group93
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64621
+Successfully changed project path to: E:/GameDevLabs/GameProgLab2Group93
+E:/GameDevLabs/GameProgLab2Group93
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GameDevLabs/GameProgLab2Group93/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008908 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004896 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\GameDevLabs\GameProgLab2Group93\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GameDevLabs\GameProgLab2Group93\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3840.
+Memory consumption went from 116.3 MB to 116.2 MB.
+Total: 3.779700 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.227700 ms MarkObjects: 3.127500 ms  DeleteObjects: 0.122400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184613.884805 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01c_4er.prefab
+  artifactKey: Guid(c33369972ea97b04cba86b48bbedf798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01c_4er.prefab using Guid(c33369972ea97b04cba86b48bbedf798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb153c4ed06eb5fcce1d34cff670c73e') in 1.204649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PBR_Fences/Materials/zaun_01c.mat
+  artifactKey: Guid(c1171605aa5261648b4ffdbefec76580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Materials/zaun_01c.mat using Guid(c1171605aa5261648b4ffdbefec76580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199b2dde3d58eac82d9ce8d8acc0c8e2') in 0.418556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01b_5er.prefab
+  artifactKey: Guid(06a4a9e9750e9f2449e509e27046046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01b_5er.prefab using Guid(06a4a9e9750e9f2449e509e27046046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705136628c48ed953065e960822cc3ab') in 0.035661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01c_2er.prefab
+  artifactKey: Guid(91e62cd531cf63748ada6501480756e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01c_2er.prefab using Guid(91e62cd531cf63748ada6501480756e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aab1f124b07c9051318a6b26d31b6e9') in 0.044826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01b_4er.prefab
+  artifactKey: Guid(9f6b1bac35c74ef45b323aa1cbf6531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01b_4er.prefab using Guid(9f6b1bac35c74ef45b323aa1cbf6531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd941f5eddcc9e6dab1a0a7a897bfdd1d') in 0.032855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01c_5er.prefab
+  artifactKey: Guid(9d35e20193c297e42b2b6f26b2452842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01c_5er.prefab using Guid(9d35e20193c297e42b2b6f26b2452842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be338e8ea389a748e780c4802460570') in 0.033305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01c_1er.prefab
+  artifactKey: Guid(fa15469924097974a82ba264b93aaba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01c_1er.prefab using Guid(fa15469924097974a82ba264b93aaba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade484f04627860b6736fd75fcaf5c53') in 0.027292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01a_2er.prefab
+  artifactKey: Guid(091cf2d46d3f8084db9704afbcb37a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01a_2er.prefab using Guid(091cf2d46d3f8084db9704afbcb37a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3332228c40125ac54fda81c0d6a07b3b') in 0.173672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01a_1er.prefab
+  artifactKey: Guid(c087ecf07f05a34488129e5ad7bd4563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01a_1er.prefab using Guid(c087ecf07f05a34488129e5ad7bd4563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c20e13a5141f37365b735b9499607e') in 0.050296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01a_4er.prefab
+  artifactKey: Guid(5111a6e18848871489a909e78825d037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01a_4er.prefab using Guid(5111a6e18848871489a909e78825d037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaa628e8de3faf2793d444bf5ddac74') in 0.068016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PBR_Fences/Materials/holzzaun.mat
+  artifactKey: Guid(bda44752fe019cd4d8e63a46ef797346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Materials/holzzaun.mat using Guid(bda44752fe019cd4d8e63a46ef797346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fcb95d2ee65a19a842c2411db2b2e4') in 0.152990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBR_Fences/Materials/zaun_01a.mat
+  artifactKey: Guid(9615fca1713623444853702dfbd27cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Materials/zaun_01a.mat using Guid(9615fca1713623444853702dfbd27cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ae137bf00ac585491a4dbbea488fa5') in 0.029782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBR_Fences/Prefabs/metalzaun_01c_3er.prefab
+  artifactKey: Guid(221552f1b0dd38d459ccd80cfbb057e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/Prefabs/metalzaun_01c_3er.prefab using Guid(221552f1b0dd38d459ccd80cfbb057e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4034ced9fa9d51451623855a2666a915') in 0.032212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.137797 seconds.
+  path: Assets/PBR_Fences/example_scene/LightingData.asset
+  artifactKey: Guid(50448b86ac9af9d4a9f20dda64b1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/example_scene/LightingData.asset using Guid(50448b86ac9af9d4a9f20dda64b1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abbf4867b71f7279ccd79888e5ac1fd') in 0.022812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBR_Fences/example_scene/ReflectionProbe-1.exr
+  artifactKey: Guid(51ba6a180fa30154d845d434c511f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/example_scene/ReflectionProbe-1.exr using Guid(51ba6a180fa30154d845d434c511f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bb1007b6c0934f4aaf6ce6d3a916b') in 0.086446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.696315 seconds.
+  path: Assets/PBR_Fences/3dobjects/metalzaun_01_module.fbx
+  artifactKey: Guid(dbe92edbcd25d8343af0700f5901b69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/3dobjects/metalzaun_01_module.fbx using Guid(dbe92edbcd25d8343af0700f5901b69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debf8ecb9ad658569d2ec52bb71d7cba') in 1.122083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.455421 seconds.
+  path: Assets/PBR_Fences/3dobjects/Materials/holzzaun_albedo_smoothness.mat
+  artifactKey: Guid(d2e9dae7ced340949ab223c252c9ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/3dobjects/Materials/holzzaun_albedo_smoothness.mat using Guid(d2e9dae7ced340949ab223c252c9ada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1448501a496a9c5f7060bfb4c834d6bc') in 0.014291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-fence_main_a.mat
+  artifactKey: Guid(3b17390df93c3704cbd3c90d99e029ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-fence_main_a.mat using Guid(3b17390df93c3704cbd3c90d99e029ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783c42e16f60ef3561d3b3f41915ebdb') in 0.024852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-fence_main_c.mat
+  artifactKey: Guid(7e6c7f4919ef13440a7b492f70224bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-fence_main_c.mat using Guid(7e6c7f4919ef13440a7b492f70224bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca87546e4fae828a3e639cba23ef44e') in 0.027142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-metal_galvanized.mat
+  artifactKey: Guid(4ebce09389b50de4f964bf315ee03e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Fences/3dobjects/Materials/metalzaun_01_module-metal_galvanized.mat using Guid(4ebce09389b50de4f964bf315ee03e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de942feeb57c06da34cf2c55b088c7') in 0.034315 seconds 
